@@ -36,13 +36,13 @@
  * @return <Add Return Informaiton here>
  */
 
-void print_statistics(unsigned char *p);
-void print_array(unsigned char *p);
-void find_median();
-void find_mean();
-void find_maximum();
-void find_minimum();
-void sort_array();
+void print_statistics(unsigned char *p, unsigned int sizeArray);
+void print_array(unsigned char *p, unsigned int sizeArray);
+float find_median(unsigned char *p, unsigned int sizeArray);
+float find_mean(unsigned char *p, unsigned int sizeArray);
+unsigned char find_maximum(unsigned char *p,unsigned int sizeArray);
+unsigned char find_minimum(unsigned char *p,unsigned int sizeArray);
+void sort_array(unsigned char *pArray, unsigned int sizeArray);
 
 
 
